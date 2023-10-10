@@ -11,6 +11,7 @@ export default class extends BaseSchema {
       table.integer('balance')
       table.integer('minimun_stock')
       table.string('user_last_update')
+      table.boolean('is_revoked').defaultTo(false)
       table.timestamp('created_at', { useTz: true }).notNullable()
       table.timestamp('updated_at', { useTz: true }).notNullable()
     })

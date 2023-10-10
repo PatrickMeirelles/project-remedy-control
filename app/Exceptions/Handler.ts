@@ -41,7 +41,6 @@ export default class ExceptionHandler extends HttpExceptionHandler {
     }
 
 
-
     /**
      * Forward rest of the exceptions to the parent class
      */

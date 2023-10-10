@@ -20,6 +20,9 @@ export default class Product extends BaseModel {
   @column()
   public userLastUpdate: string
 
+  @column()
+  public isRevoked: boolean
+
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 

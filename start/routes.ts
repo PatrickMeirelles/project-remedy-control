@@ -29,3 +29,6 @@ Route.post('/user/create', 'LoginController.create')
 Route.post('/user/logout', 'LoginController.logout')
 
 Route.post('/product/create', 'ProductsController.create')
+Route.get('/product/show', 'ProductsController.show')
+Route.put('/product/update', 'ProductsController.update')
+Route.delete('/product/delete', 'ProductsController.delete')
